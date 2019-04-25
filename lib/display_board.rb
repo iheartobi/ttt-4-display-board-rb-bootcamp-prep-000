@@ -5,8 +5,8 @@ def display_board(board)
   pipe = "|"
   line = "-----------"
   
-  puts "#{board[0]}, #{pipe}"
-  puts "-----------"
+  puts "#{board[0]} #{pipe} #{board[1]} #{pipe} #{board[1]}"
+  puts line
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
