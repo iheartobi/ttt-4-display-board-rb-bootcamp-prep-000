@@ -2,9 +2,10 @@
 # out the current state.
 
 def display_board(board)
-  pipe = " | "
+  pipe = "|"
+  line = "-----------"
   
-  puts "   |   |   "
+  puts "#{board[0]}, #{pipe}"
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
